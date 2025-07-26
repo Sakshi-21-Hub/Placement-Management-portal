@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 90px;
+    width: 370px;
+    max-height: 60%;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-top: 0px;
+    overflow: hidden;
+    
+}
+
+.wrapper .title {
+    background: #007bff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #006fe6;
+    border-radius: 5px 5px 0 0;
+}
+
+.wrapper .form {
+    padding: 20px 15px;
+    min-height: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.wrapper .typing-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #efefef;
+    border-top: 1px solid #d9d9d9;
+    border-radius: 0 0 5px 5px;
+    padding: 10px 15px;
+    
+}
+
+.wrapper .typing-field .input-data input {
+    height: 40px;
+    width: 250px;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 0 15px;
+    border-radius: 3px;
+    font-size: 15px;
+    background: #fff;
+    transition: all 0.3s ease;
+    
+}
+
+.wrapper .typing-field .input-data button {
+    height: 40px;
+    width: 60px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: #007bff;
+    transition: all 0.3s ease;
+}
+.chat-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.text {
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:rgb(101, 126, 222);
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+    
+
+
